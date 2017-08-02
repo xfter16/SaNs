@@ -1,0 +1,21 @@
+{
+  "name": "sans",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Andrian <xfter16@live.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/xfter16/SaNs",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery": "2.*"
+  }
+}
