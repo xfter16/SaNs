@@ -90,6 +90,13 @@ gulp.task('image:build', function () {
         .pipe(reload({stream: true}));
 });
 
+gulp.task('sass', function(){
+    gulp.src(path.src.style)
+    .pipe(sass())
+    .pipe(gulp.dest(path.build.css))
+    .pipe(reload({stream: true}));
+});
+
 gulp.task('fonts:build', function() {
     gulp.src(path.src.fonts)
         .pipe(gulp.dest(path.build.fonts))
